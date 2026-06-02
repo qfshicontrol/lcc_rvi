@@ -20,17 +20,17 @@ In this section, the communication topology is fixed to **5 connected vehicles**
   <video src="https://github.com/user-attachments/assets/24f4e462-84ec-4bf6-b7f8-ca2b201518dc" controls width="100%" preload="none"></video>
   </details>
 
-* **`animation_lcc_original_5connected_eb.mp4`** (Original LCC method [Wang et al., 2021])
+* **`animation_lcc_original_5connected_eb.mp4`** (Original LCC method [1])
   <details><summary>🎬 Click to expand / play video</summary>
   <video src="https://github.com/user-attachments/assets/ff61a788-bc21-4873-b648-0f3cb92d0fb6" controls width="100%" preload="none"></video>
   </details>
 
-* **`animation_lcc_pi_zsg_5connected_eb.mp4`** (Zero-sum game policy iteration-based LCC [Li et al., 2023])
+* **`animation_lcc_pi_zsg_5connected_eb.mp4`** (Zero-sum game policy iteration-based LCC [2])
   <details><summary>🎬 Click to expand / play video</summary>
   <video src="https://github.com/user-attachments/assets/0377913d-20ce-452e-b579-5c5cc7ccc163" controls width="100%" preload="none"></video>
   </details>
 
-* **`animation_lcc_ql_zsg_5connected_eb.mp4`** (Zero-sum game Q-learning-based LCC [Liu et al., 2023])
+* **`animation_lcc_ql_zsg_5connected_eb.mp4`** (Zero-sum game Q-learning-based LCC [3])
   <details><summary>🎬 Click to expand / play video</summary>
   <video src="https://github.com/user-attachments/assets/ef7f7c27-ff03-4dec-9ad2-93e94ed6f511" controls width="100%" preload="none"></video>
   </details>
@@ -46,17 +46,17 @@ In this section, the communication topology is fixed to **5 connected vehicles**
   <video src="https://github.com/user-attachments/assets/800f9ecd-1db7-45f4-871f-4a043c0fe16a" controls width="100%" preload="none"></video>
   </details>
 
-* **`animation_lcc_original_5connected_fs.mp4`** (Original LCC method)
+* **`animation_lcc_original_5connected_fs.mp4`** (Original LCC method [1])
   <details><summary>🎬 Click to expand / play video</summary>
   <video src="https://github.com/user-attachments/assets/680b4e5b-f57b-4824-ad33-2bc3a6b652bc" controls width="100%" preload="none"></video>
   </details>
 
-* **`animation_lcc_pi_zsg_5connected_fs.mp4`** (Zero-sum game policy iteration-based LCC)
+* **`animation_lcc_pi_zsg_5connected_fs.mp4`** (Zero-sum game policy iteration-based LCC [2])
   <details><summary>🎬 Click to expand / play video</summary>
   <video src="https://github.com/user-attachments/assets/bbd4f17d-ad7e-4469-a212-2b4ae7a96d69" controls width="100%" preload="none"></video>
   </details>
 
-* **`animation_lcc_ql_zsg_5connected_fs.mp4`** (Zero-sum game Q-learning-based LCC)
+* **`animation_lcc_ql_zsg_5connected_fs.mp4`** (Zero-sum game Q-learning-based LCC [3])
   <details><summary>🎬 Click to expand / play video</summary>
   <video src="https://github.com/user-attachments/assets/61798c9a-aa12-48f9-9054-7b824ef571e1" controls width="100%" preload="none"></video>
   </details>
@@ -72,17 +72,17 @@ In this section, the communication topology is fixed to **5 connected vehicles**
   <video src="https://github.com/user-attachments/assets/cb2f2011-4616-4ca4-82b4-8b81a151873f" controls width="100%" preload="none"></video>
   </details>
 
-* **`animation_lcc_original_5connected_ngsim.mp4`** (Original LCC method)
+* **`animation_lcc_original_5connected_ngsim.mp4`** (Original LCC method [1])
   <details><summary>🎬 Click to expand / play video</summary>
   <video src="https://github.com/user-attachments/assets/c97a598d-fc2d-49d7-97df-8ee6b495bc43" controls width="100%" preload="none"></video>
   </details>
 
-* **`animation_lcc_pi_zsg_5connected_ngsim.mp4`** (Zero-sum game policy iteration-based LCC)
+* **`animation_lcc_pi_zsg_5connected_ngsim.mp4`** (Zero-sum game policy iteration-based LCC [2])
   <details><summary>🎬 Click to expand / play video</summary>
   <video src="https://github.com/user-attachments/assets/bb29a2c4-2d3f-4f69-a865-78032eb815b7" controls width="100%" preload="none"></video>
   </details>
 
-* **`animation_lcc_ql_zsg_5connected_ngsim.mp4`** (Zero-sum game Q-learning-based LCC)
+* **`animation_lcc_ql_zsg_5connected_ngsim.mp4`** (Zero-sum game Q-learning-based LCC [3])
   <details><summary>🎬 Click to expand / play video</summary>
   <video src="https://github.com/user-attachments/assets/9def4186-4b73-43dc-a540-ad2403d68054" controls width="100%" preload="none"></video>
   </details>
@@ -126,5 +126,16 @@ Vehicles in the top-down platoon animation are color-coded to denote their respe
 * **UHDV (Grey):** Unconnected Human-Driven Vehicles (states are implicitly handled or observed by the LCC system).
 * **HV (Purple):** The Head Vehicle leading the platoon and initiating traffic perturbations.
 
+---
+
 ## System Requirements
 All files are encoded in standard H.264 `.mp4` format. They can be played natively on standard media players (e.g., VLC, Windows Media Player, QuickTime) or within modern web browsers.
+
+---
+
+## References
+[1] J. Wang, Y. Zheng, C. Chen, Q. Xu, and K. Li, "Leading cruise control in mixed traffic flow: System modeling, controllability, and string stability," *IEEE Transactions on Intelligent Transportation Systems*, vol. 23, no. 8, pp. 12861–12876, 2021.
+
+[2] J. Li, J. Wang, S. E. Li, and K. Li, "Learning optimal robust control of connected vehicles in mixed traffic flow," in *62nd IEEE Conference on Decision and Control*, 2023, pp. 1112–1117.
+
+[3] T. Liu, L. Cui, B. Pang, and Z.-P. Jiang, "A unified framework for data-driven optimal control of connected vehicles in mixed traffic," *IEEE Transactions on Intelligent Vehicles*, vol. 8, no. 8, pp. 4131–4145, 2023.
