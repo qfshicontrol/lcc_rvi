@@ -1,5 +1,5 @@
 # lcc_rvi
-Supplementary animations for the manuscript "Delay-Aware Dynamics Modeling and Data-Driven Optimal Control of Mixed Vehicle Platoons" submitted to IEEE Internet of Things Journal. Visualizes platoon top-down dynamics and real-time velocity profiles across various algorithms, traffic scenarios, and communication scales.
+Simulation code and supplementary animations for the manuscript "Delay-Aware Dynamics Modeling and Data-Driven Optimal Control of Mixed Vehicle Platoons" submitted to IEEE Internet of Things Journal. Visualizes platoon top-down dynamics and real-time velocity profiles across various algorithms, traffic scenarios, and communication scales.
 
 
 # Supplementary Material for "Delay-Aware Dynamics Modeling and Data-Driven Optimal Control of Mixed Vehicle Platoons"
